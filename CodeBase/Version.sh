@@ -9,7 +9,7 @@
 #   if the versions are different it initiates clone of remote verion of codebase
 #   ititiates the main program from the code base
 
-version="V0.1" # change this for a new version
+version="V0.2" # change this for a new version
 properName="./Version.sh" # if run from the same directory as this file (code base?)
 sshHost=$(cat sshHost) # get host used by this machine and hide from prying eyes!
 

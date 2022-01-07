@@ -20,3 +20,7 @@ getExec $where/AllFiles.sh AllFiles.sh
 # get the executable Python files
 getFile $where/*.py .
 chmod 777 ./*.py
+
+mkdir MonitorWall
+getFile $where/MonitorWall/*.py MonitorWall
+chmod 777 ./*MonitorWallpy
